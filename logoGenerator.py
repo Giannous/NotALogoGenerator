@@ -11,7 +11,7 @@ square = Image.open('.\\shapes\\square.png')
 
 shapes = [circle, triangle, square]
 
-blank_image = Image.new("RGB", (600, 600), (255, 255, 255))  # Crea immagine con sfondo bianco 600x600
+blank_image = Image.new("RGB", (600, 600), (255, 255, 255))  # Create immage with white background 600x600
 
 # draw = ImageDraw.Draw(blank_image)
 # draw.rounded_rectangle(xy=(10, 20, 190, 180), radius=30, fill="red")
